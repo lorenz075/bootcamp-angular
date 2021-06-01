@@ -21,5 +21,4 @@ export class StockCardComponent implements OnInit {
     const prefix = this.stock.variation > 0 ? '+' : '-';
     return `${prefix} ${localizedVariationString.replace('-', '')}%`;
   }
-
 }
